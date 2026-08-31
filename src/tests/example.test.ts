@@ -14,9 +14,3 @@ describe("person", () => {
         expect(person.isActive).toBeTruthy();
     });
 });
-
-describe("erroneous testing", () => {
-    test("company is defined", () => {
-        expect(company).toBeDefined();
-    });
-})
